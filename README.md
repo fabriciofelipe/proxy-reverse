@@ -29,4 +29,6 @@ curl -X GET \
 # Passo build's e deploy's das api's
   docker-compose pull myapi \
   docker-compose scale myapi=1
-
+ para todas as imagens :
+  docker-compose up
+  # necessário instalação prévia do docker e docker-compose para orquestração
