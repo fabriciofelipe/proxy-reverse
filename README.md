@@ -26,3 +26,7 @@ curl -X GET \
   https://localhost:8443/test \
   -H 'cache-control: no-cache' \
   -H 'postman-token: b157f58f-729e-89ad-3172-a04345299fc4'
+# Passo build's e deploy's das api's
+  docker-compose pull myapi
+  docker-compose scale myapi=1
+
