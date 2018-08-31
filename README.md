@@ -1,6 +1,10 @@
 # proxy-reverse
 
-Fluxo proxy Reverse
+# Ojbjetivo
+
+Proxy HTTPS reverso em JAVA com suporte SNI, que distribui os requests dependendo do host/FQDN requisitado para os correspondentes webservers de backend que suportam apenas HTTP.
+
+#Fluxo proxy Reverse
 
 https://www.lucidchart.com/documents/view/7373e6b0-a67b-4000-bf12-e22123726150/0
 
