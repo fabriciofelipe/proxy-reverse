@@ -25,7 +25,7 @@ services:
   proxy-reverse:
     container_name: proxy-reverse
     build:
-        context: .
+        context: ../
         dockerfile: /home/nicky/Documentos/fabricio/proxy-reverse/Dockerfile
     ports:
       - 8443
